@@ -1,0 +1,56 @@
+body {
+    background-image: url(pexels-padrinan-255379.jpg);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: blue;
+    margin-bottom: 40px;
+}
+#addTaskButton
+{
+    color:red;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    width: 300px;
+    border-radius: 1pc;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    margin: 20px 300px;
+    padding: 5px;
+    align-items: center;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1pc;
+    border: 2px solid black;
+}
